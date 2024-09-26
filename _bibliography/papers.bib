@@ -1,173 +1,47 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-
-@misc{zhao_design_2023,
-  title = {Design and {Control} of a {Bio}-inspired {Wheeled} {Bipedal} {Robot}},
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0
-               International},
-  url = {https://arxiv.org/abs/2308.13205},
-  doi = {10.48550/ARXIV.2308.13205},
-  abstract = {Wheeled bipedal robots (WBRs) have the capability to execute agile
-              and versatile locomotion tasks. This paper focuses on improving the
-              dynamic performance of WBRs through innovations in both hardware
-              and software development. Inspired by the human barbell squat, a
-              bionic mechanical design is proposed and implemented as shown in
-              Fig. 1. It distributes the weight onto its hip and knee joints to
-              improve the effectiveness of joint motors while maintaining a
-              relatively large workspace of the base link. Meanwhile, a novel
-              model-based controller is devised, synthesizing height-variable
-              wheeled linear inverted pendulum (HV-wLIP) model, Control Lyapunov
-              Function (CLF) and whole-body dynamics for theoretically guaranteed
-              stability and efficient computation. Compared with other
-              alternatives, as a more accurate approximation of the WBR dynamics,
-              the HV-wLIP can enable more agile response and provide theory basis
-              for WBR controller design. Experimental results demonstrate that
-              the robot could perform human-like deep squat, and is capable of
-              maintaining tracking CoM velocity while manipulating base states.
-              Furthermore, it exhibited robustness against external disturbances
-              and unknown terrains even in the wild.},
-  urldate = {2024-07-23},
-  publisher = {arXiv},
-  author = {Zhao, Haizhou and Yu, Lei and Qin, Siying and Jin, Gumin and Chen,
-            Yuqing},
-  year = {2023},
-  note = {Version Number: 3},
-  keywords = {FOS: Computer and information sciences, FOS: Electrical
-              engineering, electronic engineering, information engineering,
-              Robotics (cs.RO), Systems and Control (eess.SY)},
-  file = {PDF:/home/caesarw/Documents/Books/Zotero/storage/3TR8U4R9/Zhao et al.
-          - 2023 - Design and Control of a Bio-inspired Wheeled Bipedal
-          Robot.pdf:application/pdf},
+@INPROCEEDINGS{9911086,
+  author={Zhao, Haizhou and Chen, Yuqing},
+  booktitle={2022 27th International Conference on Automation and Computing (<b>ICAC</b>)}, 
+  title={Constrained Iterative Nonlinear Optimization for Robot Control Applications}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Scalability;Robot control;Optimal control;Nonlinear dynamical systems;Planning;Numerical models;Iterative methods;Nonlinear optimization;Robot control;Constrained optimal control},
+  doi={10.1109/ICAC55051.2022.9911086},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9911086/},
+  }
+@ARTICLE{zhao2024trajectoryoptimizationcontacttiming,
+      title={Trajectory Optimization under Contact Timing Uncertainties}, 
+      author={Zhao, Haizhou and Khadiv, Majid},
+      year={2024},
+      journal={arXiv prepreint abs/2407.11478, accepted by IEEE-RAS International Conference on Humanoid Robots (<b>Humanoid</b>)},
+      arxiv={https://arxiv.org/abs/2407.11478}, 
 }
-
-@misc{yu_compact_2023,
-  title = {A {Compact} {Variable} {Stiffness} {Actuator} for {Agile} {Legged} {
-           Locomotion}},
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0
-               International},
-  url = {https://arxiv.org/abs/2308.13988},
-  doi = {10.48550/ARXIV.2308.13988},
-  abstract = {The legged robots with variable stiffness actuators (VSAs) can
-              achieve energy-efficient and versatile locomotion. However,
-              equipping legged robots with VSAs in real-world application is
-              usually restricted by (i) the redundant mechanical structure design
-              , (ii) limited stiffness variation range and speed, (iii) high
-              energy consumption in stiffness modulation, and (iv) the lack of
-              online stiffness control structure with high performance. In this
-              paper, we present a novel Variable-Length Leaf-Spring Actuator
-              (VLLSA) designed for legged robots that aims to address the
-              aforementioned limitations. The design is based on leaf-spring
-              mechanism and we improve the structural design to make the proposed
-              VSA (i) compact and lightweight in mechanical structure, (ii)
-              precise in theoretical modeling, and (iii) capable of modulating
-              stiffness with wide range, fast speed, low energy consumption and
-              high control performance. Hardware experiments including in-place
-              and forward hopping validate advantages of the proposed VLLSA.},
-  urldate = {2024-07-23},
-  publisher = {arXiv},
-  author = {Yu, Lei and Zhao, Haizhou and Qin, Siying and Jin, Gumin and Chen,
-            Yuqing},
-  year = {2023},
-  note = {Version Number: 2},
-  keywords = {FOS: Computer and information sciences, Robotics (cs.RO)},
-  file = {PDF:/home/caesarw/Documents/Books/Zotero/storage/TUSPSAAC/Yu et al. -
-          2023 - A Compact Variable Stiffness Actuator for Agile Legged
-          Locomotion.pdf:application/pdf},
+@ARTICLE{wang2024armconstrainedcurriculumlearninglocomanipulation,
+  title={Arm-Constrained Curriculum Learning for Loco-Manipulation of the Wheel-Legged Robot}, 
+  author={Zifan Wang and Yufei Jia and Lu Shi and Haoyu Wang and Haizhou Zhao and Xueyang Li and Jinni Zhou and Jun Ma and Guyue Zhou},
+  year={2024},
+  journal={arXiv prepreint abs/2403.16535, accepted by IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)},
+  arxiv={https://arxiv.org/abs/2403.16535}, 
+  website={https://acodedog.github.io/wheel-legged-loco-manipulation/}
 }
-
-@misc{zhao_trajectory_2024,
-  title = {Trajectory {Optimization} under {Contact} {Timing} {Uncertainties}},
-  copyright = {Creative Commons Attribution 4.0 International},
-  url = {https://arxiv.org/abs/2407.11478},
-  doi = {10.48550/ARXIV.2407.11478},
-  abstract = {Most interesting problems in robotics (e.g., locomotion and
-              manipulation) are realized through intermittent contact with the
-              environment. Due to the perception and modeling errors, assuming an
-              exact time for establishing contact with the environment is
-              unrealistic. On the other hand, handling uncertainties in contact
-              timing is notoriously difficult as it gives rise to either handling
-              uncertain complementarity systems or solving combinatorial
-              optimization problems at run-time. This work presents a novel
-              optimal control formulation to find robust control policies under
-              contact timing uncertainties. Our main novelty lies in casting the
-              stochastic problem to a deterministic optimization over the
-              uncertainty set that ensures robustness criterion satisfaction of
-              candidate pre-contact states and optimizes for contact-relevant
-              objectives. This way, we only need to solve a manageable standard
-              nonlinear programming problem without complementarity constraints
-              or combinatorial explosion. Our simulation results on multiple
-              simplified locomotion and manipulation tasks demonstrate the
-              robustness of our uncertainty-aware formulation compared to the
-              nominal optimal control formulation.},
-  urldate = {2024-07-23},
-  publisher = {arXiv},
-  author = {Zhao, Haizhou and Khadiv, Majid},
-  year = {2024},
-  note = {Version Number: 1},
-  keywords = {FOS: Computer and information sciences, Robotics (cs.RO)},
-  file = {PDF:/home/caesarw/Documents/Books/Zotero/storage/6BHR67P8/Zhao and
-          Khadiv - 2024 - Trajectory Optimization under Contact Timing
-          Uncertainties.pdf:application/pdf},
-}
-
-@misc{wang_arm-constrained_2024,
-  title = {Arm-{Constrained} {Curriculum} {Learning} for {Loco}-{Manipulation}
-           of the {Wheel}-{Legged} {Robot}},
-  copyright = {Creative Commons Attribution 4.0 International},
-  url = {https://arxiv.org/abs/2403.16535},
-  doi = {10.48550/ARXIV.2403.16535},
-  abstract = {Incorporating a robotic manipulator into a wheel-legged robot
-              enhances its agility and expands its potential for practical
-              applications. However, the presence of potential instability and
-              uncertainties presents additional challenges for control
-              objectives. In this paper, we introduce an arm-constrained
-              curriculum learning architecture to tackle the issues introduced by
-              adding the manipulator. Firstly, we develop an arm-constrained
-              reinforcement learning algorithm to ensure safety and stability in
-              control performance. Additionally, to address discrepancies in
-              reward settings between the arm and the base, we propose a
-              reward-aware curriculum learning method. The policy is first
-              trained in Isaac gym and transferred to the physical robot to do
-              dynamic grasping tasks, including the door-opening task,
-              fan-twitching task and the relay-baton-picking and following task.
-              The results demonstrate that our proposed approach effectively
-              controls the arm-equipped wheel-legged robot to master dynamic
-              grasping skills, allowing it to chase and catch a moving object
-              while in motion. Please refer to our website
-              (https://acodedog.github.io/wheel-legged-loco-manipulation) for the
-              code and supplemental videos.},
-  urldate = {2024-07-23},
-  publisher = {arXiv},
-  author = {Wang, Zifan and Jia, Yufei and Shi, Lu and Wang, Haoyu and Zhao,
-            Haizhou and Li, Xueyang and Zhou, Jinni and Ma, Jun and Zhou, Guyue},
-  year = {2024},
-  note = {Version Number: 2},
-  keywords = {FOS: Computer and information sciences, Robotics (cs.RO)},
-  file = {PDF:/home/caesarw/Documents/Books/Zotero/storage/5ACGQNLR/Wang et al.
-          - 2024 - Arm-Constrained Curriculum Learning for Loco-Manipulation of
-          the Wheel-Legged Robot.pdf:application/pdf},
-}
-
-@inproceedings{zhao_constrained_2022,
-  address = {Bristol, United Kingdom},
-  title = {Constrained {Iterative} {Nonlinear} {Optimization} for {Robot} {
-           Control} {Applications}},
-  copyright = {https://doi.org/10.15223/policy-029},
-  isbn = {978-1-66549-807-4},
-  url = {https://ieeexplore.ieee.org/document/9911086/},
-  doi = {10.1109/ICAC55051.2022.9911086},
-  urldate = {2024-07-23},
-  booktitle = {2022 27th {International} {Conference} on {Automation} and {
-               Computing} ({ICAC})},
-  publisher = {IEEE},
-  author = {Zhao, Haizhou and Chen, Yuqing},
-  month = sep,
-  year = {2022},
-  pages = {1--6},
-  file = {PDF:/home/caesarw/Documents/Books/Zotero/storage/VGXKFIXX/Zhao and
-          Chen - 2022 - Constrained Iterative Nonlinear Optimization for Robot
-          Control Applications.pdf:application/pdf},
+@ARTICLE{10665908,
+  author={Zhao, Haizhou and Yu, Lei and Qin, Siying and Jin, Gumin and Chen, Yuqing},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Design and Control of a Bio-Inspired Wheeled Bipedal Robot}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TMECH.2024.3449397},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10665908},
+  arxiv={https://arxiv.org/abs/2308.13205}}
+@ARTICLE{10606048,
+  author={Yu, Lei and Zhao, Haizhou and Qin, Siying and Jin, Gumin and Chen, Yuqing},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={A Compact Variable Stiffness Actuator for Agile Legged Locomotion}, 
+  year={2024},
+  doi={10.1109/TMECH.2024.3425467},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10606048},
+  arxiv={https://arxiv.org/abs/2308.13988}
 }

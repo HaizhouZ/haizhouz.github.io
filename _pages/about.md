@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Intern @ <a href='https://www.mirmi.tum.de/en/mirmi/home/'>TUM MIRMI</a>. Incoming PhD Candidate @ <a href='https://www.nyu.edu/'>NYU</a>.
+subtitle: >
+      <span class="font-weight-bold">海州</span>
+      <span style="font-family:sans-serif"> <a href="http://ipa-reader.xyz/?text=h%CA%8C%C9%AAd%CA%92%C9%99%CA%8A&voice=Joey">/hʌɪdʒəʊ/</a></span>
+      赵 
+      <span style="font-family:sans-serif">/dʒaʊ/</span>
 
 profile:
   align: right
@@ -10,18 +14,16 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Georg-Brauchle-Ring 60-62</p>
-    <p>80992 Munich Bavaria, Germany</p>
+    <p>80992 Munich, Germany</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 # selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Hi, I am Haizhou (pronounced as Hi-Jo) Zhao. 
+I am a research intern at [TUM ATARI Lab](https://www.ce.cit.tum.de/en/aipd/home/), working with Prof. [Majid Khadiv](https://www.professoren.tum.de/en/khadiv-majid). Starting January 2025, I will join [NYU Machines In Motion Laboratory](https://www.machinesinmotion.org/) as a PhD student in Mechanical Engineering, co-adivsed by Prof. [Ludovic Righetti](https://righetti.github.io/) and Prof. Majid Khadiv. My research interests lie in optimization-based control for legged robots and bionic mechanical design of humanoid robots.
 
-My research interest is optimization-based control for legged robots. I also like mechanical design (amateur-level though :smile:). 
-
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/haizhou-zhao/)!
+Previously, I obtained my BEng in Mechatronics and Robotic Systems from the University of Liverpool and Xi'an Jiaotong-Liverpool University (XJTLU) in 2023, advised by Prof. [Yuqing Chen](https://scholar.google.de/citations?user=T4fF7coAAAAJ&hl=en).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
