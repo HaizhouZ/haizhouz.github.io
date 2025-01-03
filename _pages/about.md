@@ -13,17 +13,17 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Georg-Brauchle-Ring 60-62</p>
-    <p>80992 Munich, Germany</p>
+    <p>6 MetroTech Center</p>
+    <p>Brooklyn, NY 11201, USA</p>
 
 news: false # includes a list of news items
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a research intern at [TUM ATARI Lab](https://www.ce.cit.tum.de/en/aipd/home/), working with Prof. [Majid Khadiv](https://www.professoren.tum.de/en/khadiv-majid). Starting January 2025, I will join [NYU Machines In Motion Laboratory](https://www.machinesinmotion.org/) as a PhD student in Mechanical Engineering, co-adivsed by Prof. [Ludovic Righetti](https://righetti.github.io/) and Prof. Majid Khadiv. My research interests lie in optimization-based control for legged robots and bionic mechanical design of humanoid robots.
+I am a PhD student at [NYU Machines In Motion Laboratory](https://www.machinesinmotion.org/), co-advised by Prof. [Ludovic Righetti](https://righetti.github.io/) and Prof. [Majid Khadiv](https://www.professoren.tum.de/en/khadiv-majid). Previously, I was a research intern at [TUM ATARI Lab](https://www.ce.cit.tum.de/en/aipd/home/), working with Prof. Majid Khadiv. In 2023, I obtained my BEng in Mechatronics and Robotic Systems from the University of Liverpool and Xi'an Jiaotong-Liverpool University (XJTLU), supervised by Prof. [Yuqing Chen](https://scholar.google.de/citations?user=T4fF7coAAAAJ&hl=en).
 
-Previously, I obtained my BEng in Mechatronics and Robotic Systems from the University of Liverpool and Xi'an Jiaotong-Liverpool University (XJTLU) in 2023, advised by Prof. [Yuqing Chen](https://scholar.google.de/citations?user=T4fF7coAAAAJ&hl=en).
+My research interests include 1) contact-rich task and motion planning for legged robots via optimization and learning, and 2) bionic mechanical design of humanoid robots.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
