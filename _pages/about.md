@@ -21,9 +21,9 @@ news: false # includes a list of news items
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at [NYU Machines In Motion Laboratory](https://www.machinesinmotion.org/), co-advised by Prof. [Ludovic Righetti](https://righetti.github.io/) and Prof. [Majid Khadiv](https://www.professoren.tum.de/en/khadiv-majid). Previously, I was a research intern at [TUM ATARI Lab](https://www.ce.cit.tum.de/en/aipd/home/), working with Prof. Majid Khadiv. In 2023, I obtained my BEng in Mechatronics and Robotic Systems from the University of Liverpool and Xi'an Jiaotong-Liverpool University (XJTLU), supervised by Prof. [Yuqing Chen](https://scholar.google.de/citations?user=T4fF7coAAAAJ&hl=en).
+I am a PhD student at [NYU Machines In Motion Laboratory](https://www.machinesinmotion.org/) starting Janurary 2025. In 2023, I obtained my BEng in Mechatronics and Robotic Systems from the University of Liverpool and Xi'an Jiaotong-Liverpool University (XJTLU).
 
-My research interests include 1) contact-rich task and motion planning for legged robots via optimization and learning, and 2) bionic mechanical design of humanoid robots.
+My research interests include 1) contact-rich task and motion planning for legged robots, and 2) bionic mechanical design of humanoid robots.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
